@@ -30,8 +30,8 @@
 
 ## 🌐 Social Links  
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Instagram-purple?logo=instagram&logoColor=white" /></a>
+  <a href="https://www.youtube.com/@CodeWithAkhter"><img src="https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white" /></a>
+  <a href="https://www.instagram.com/md_hussainakhtar/"><img src="https://img.shields.io/badge/Instagram-purple?logo=instagram&logoColor=white" /></a>
   <a href="#"><img src="https://img.shields.io/badge/Portfolio-blue?logo=google-chrome&logoColor=white" /></a>
 </p>
 
