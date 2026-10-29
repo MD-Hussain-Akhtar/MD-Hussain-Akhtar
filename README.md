@@ -1,61 +1,61 @@
-<div align="center">
-  <img src="https://github.com/MD-Hussain-Akhtar/Image/raw/main/WhatsApp%20Image%202026-02-15%20at%202.55.14%20AM.jpeg" width="100%" style="border-radius: 20px;">
+<h1 align="center">Hi 👋, I'm Hussain Akhtar</h1>
+<h3 align="center">Full-Stack Software Developer & Creator of CodeWithAkhter</h3>
 
-  <h1><img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="35px"> I'm Hussain Akhtar</h1>
-
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&color=F15A24&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;Creative+UI/UX+Designer;Open+Source+Contributor;Problem+Solver" />
-
-  <p align="center">
-    <a href="https://github.com/MD-Hussain-Akhtar">
-      <img src="https://img.shields.io/github/followers/MD-Hussain-Akhtar?label=Follow&style=for-the-badge&color=F15A24&logo=github" />
-    </a>
-  </p>
-</div>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=MD-Hussain-Akhter&style=flat-square&color=3b82f6" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Status-Building_Real_Projects-3b82f6?style=flat-square&logo=appveyor" alt="Status" />
+  <img src="https://img.shields.io/badge/Focus-Full_Stack_%7C_Python_%7C_Web-f472b6?style=flat-square&logo=react" alt="Focus" />
+</p>
 
 ---
 
 ### 🚀 About Me
-- 🔭 **Working on:** [ApnaSchool-Portal](https://github.com/MD-Hussain-Akhtar/ApnaSchool-Portal) - A premium school management system.
-- 🌱 **Learning:** Advanced Backend Architecture & Cloud Deployment.
-- 💬 **Ask me about:** JavaScript, React, Tailwind, and Node.js.
-- ⚡ **Fun fact:** I believe clean code is like poetry written for machines.
+- 🌱 Final-year **B.Tech Computer Science & Engineering** student.
+- 💻 Building scalable web applications, real-time communication tools, and document utilities.
+- 🎥 Creating educational programming content on YouTube under **CodeWithAkhter**.
+- 📍 Based in **Bihar, India**.
 
 ---
 
-### 🛠️ My Tech Stack
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind,nodejs,express,mongodb,python,java,git,github,vscode,postman,figma" />
-</div>
+### 🛠️ Tech Stack & Skills
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,reactnative,nodejs,express,python,cpp,mysql,mongodb,git,github,vscode,windows" />
+</p>
 
 ---
 
-### 📊 GitHub Stats & Activity
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MD-Hussain-Akhtar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F15A24&icon_color=00F7FF" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MD-Hussain-Akhtar&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=F15A24" />
-</div>
+### ⚡ Featured Real-Time Projects
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MD-Hussain-Akhtar&theme=tokyonight&hide_border=true&background=0D1117&ring=F15A24&sideNums=00F7FF" />
-</div>
+| Project Name | Description | Tech Stack | Live / Repo |
+| :--- | :--- | :--- | :--- |
+| **📁 PDF & Word Converter Suite** | Real-time document conversion tool with custom animated splash screen & video gallery showcase. | JavaScript, PDF.js, CSS Grid, AOS | [View Repo](https://github.com/MD-Hussain-Akhtar/pdf_Converter) |
+| **⚡ Smart YouTube & Text Summarizer** | Interactive Python web app to inspect YouTube videos and analyze text metrics instantly. | Python, Streamlit, Urllib | [View Repo](https://github.com/MD-Hussain-Akhter/smart-summarizer) |
+| **💬 Real-Time Chat & WebRTC** | Group chat and live video calling application with instant socket connections. | Node.js, Express, Socket.IO, MongoDB | Deployed on Vercel |
 
 ---
 
-### 🌐 Connect With Me
+### 📊 GitHub Stats & Metrics
 <p align="center">
-  <a href="https://www.youtube.com/@CodeWithAkhter">
-    <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MD-Hussain-Akhter&show_icons=true&theme=tokyonight&hide_border=true&bg_color=030712" alt="Hussain's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=MD-Hussain-Akhter&layout=compact&theme=tokyonight&hide_border=true&bg_color=030712" alt="Top Languages" width="48%" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MD-Hussain-Akhter&theme=tokyonight&hide_border=true&background=030712" alt="GitHub Streak" width="100%" />
+</p>
+
+---
+
+### 🌐 Connect with Me
+<p align="center">
+  <a href="https://www.youtube.com/@CodeWithAkhter" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-CodeWithAkhter-red?style=flat-square&logo=youtube" alt="YouTube" />
   </a>
-  <a href="https://www.instagram.com/md_hussainakhtar/">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  <a href="https://github.com/MD-Hussain-Akhter" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-MD--Hussain--Akhter-black?style=flat-square&logo=github" alt="GitHub" />
   </a>
 </p>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=F15A24&height=100&section=footer" width="100%"/>
-</div>
+<p align="center">
+  <i>"Code. Build. Deploy. Repeat. 🚀"</i>
+</p>
