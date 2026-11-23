@@ -1,59 +1,121 @@
-<!-- Animated Wave Header -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Hussain%20Akhtar&fontSize=42&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%" />
-</p>
+# Simple Input Form
 
-<!-- Animated Typing Effect -->
-<p align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=38BDF8&center=true&vCenter=true&width=620&lines=Full-Stack+Software+Developer+%F0%9F%92%BB;Creator+of+CodeWithAkhter+%F0%9F%8E%A5;Diploma+%26+B.Tech+CSE+Engineer+%F0%9F%8E%93;Building+Real-Time+Web+%26+AI+Apps+%E2%9A%A1" alt="Typing SVG" />
-  </a>
-</p>
+Ek clean aur responsive HTML + CSS input form jise aap kisi bhi web project ya practice page mein directly use kar sakte hain.
 
-<!-- Clean Badges -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=MD-Hussain-Akhtar&style=for-the-badge&color=38bdf8" alt="Profile Views" />
-  <a href="https://codewithhf.online" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-codewithhf.online-0f172a?style=for-the-badge&logo=google-chrome&logoColor=38bdf8" alt="Portfolio" />
-  </a>
-  <a href="https://www.youtube.com/@CodeWithAkhter" target="_blank">
-    <img src="https://img.shields.io/badge/YouTube-CodeWithAkhter-ef4444?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube" />
-  </a>
-</p>
+## Features
+- Dark mode layout with clean focus states
+- Name, Email, aur Message input fields
+- Built-in HTML5 form validation (`required`, `type="email"`)
 
----
+## Code (`index.html`)
 
-<!-- Simple Intro + Animated Coding GIF -->
-<img align="right" alt="Coding Animation" width="320" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" />
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Input Form</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
 
-### 👋 Hey there!
-- 🎓 **Diploma in Engineering** & final-year **B.Tech CSE** student from **Bihar, India**.
-- 💻 Building full-stack apps with **React, Node.js, Python & MySQL**.
-- 🎥 Teaching coding on YouTube at **CodeWithAkhter**.
-- ⚡ **Featured Builds:** [PDF & Word Converter](https://github.com/MD-Hussain-Akhtar/pdf_Converter) • [Smart Summarizer](https://github.com/MD-Hussain-Akhtar/smart-summarizer) • [LiveTrack India](https://github.com/MD-Hussain-Akhtar)
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 16px;
+    }
 
-<br clear="right"/>
+    .form-box {
+      width: 100%;
+      max-width: 400px;
+      background: #1e293b;
+      padding: 24px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    }
 
----
+    .form-box h2 {
+      margin-bottom: 18px;
+      font-size: 1.35rem;
+    }
 
-### 🛠️ Tech Stack
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express,python,cpp,mysql,mongodb,linux,git,github,vscode&perline=7" />
-</p>
+    .field {
+      margin-bottom: 14px;
+    }
 
----
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.9rem;
+      color: #cbd5e1;
+    }
 
-### 📊 Live GitHub Activity
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MD-Hussain-Akhtar&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" width="49%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MD-Hussain-Akhtar&theme=tokyonight&hide_border=true&background=0d1117" width="49%" />
-</p>
+    input,
+    textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 8px;
+      border: 1px solid #334155;
+      background: #0f172a;
+      color: #f8fafc;
+      font-size: 0.95rem;
+      outline: none;
+    }
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MD-Hussain-Akhter&theme=tokyo-night&hide_border=true&bg_color=0d1117&color=38bdf8&line=38bdf8&point=ffffff" width="100%" />
-</p>
+    input:focus,
+    textarea:focus {
+      border-color: #38bdf8;
+    }
 
-<!-- Animated Wave Footer -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%" />
-</p>
+    button {
+      width: 100%;
+      padding: 11px;
+      border: none;
+      border-radius: 8px;
+      background: #38bdf8;
+      color: #0f172a;
+      font-weight: 600;
+      font-size: 0.95rem;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #0ea5e9;
+    }
+  </style>
+</head>
+<body>
+  <form class="form-box">
+    <h2>Contact Form</h2>
+
+    <div class="field">
+      <label for="name">Name</label>
+      <input id="name" type="text" placeholder="Enter your name" required />
+    </div>
+
+    <div class="field">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@example.com" required />
+    </div>
+
+    <div class="field">
+      <label for="message">Message</label>
+      <textarea id="message" rows="3" placeholder="Write your message..."></textarea>
+    </div>
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
+```
+
+## Usage
+Is code ko `index.html` file mein save karein aur kisi bhi browser mein open kar lein.
